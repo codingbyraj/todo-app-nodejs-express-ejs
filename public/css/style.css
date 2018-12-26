@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+
+.content{
+    width:55%;
+    margin:auto;            
+    margin-top:5%;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px #626265;
+    transition: 0.5s;
+}
+.content:hover{
+    box-shadow: 0px 0px 1px #626265;
+    transition: 0.5s;
+}
+
+
+.menu{
+    background:#874cab;
+    padding: 10px 0;            
+    padding-left: 18%;
+        
+}
+.menu a{
+    text-decoration: none;
+    background: white;
+    color:#874cab;
+    padding: 5px;
+    margin-right: 10px;            
+    border-radius: 3px;
+    font-size: 18px;
+}
+.task-list{
+    padding: 0 10%;
+}
+.task-list h1{
+    font-size: 22px;
+    font-family:Verdana;
+    font-weight: normal;
+    text-align: center;
+}
+.task-list ol{
+    background: #8ddcca;
+    border-radius: 3px;
+}
+.task-list ol li{
+    margin-bottom: 2px;
+    padding:4px 0 4px 50px; 
+    border-radius: 3px;
+}
+
+.task-list ol li:nth-child(even){
+    background: cadetblue;
+}
+.task-list ol li:nth-child(odd){
+    background: beige;
+} 

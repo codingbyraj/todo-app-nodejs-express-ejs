@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>       
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="menu">            
+                <a href="addtask.html">Add Task</a>
+                <a href="/todos">Show All Tasks</a>
+                <a href="updatetask.html">Update Task</a>
+                <a href="deletetask.html">Delete Task</a>
+        </div>
+        <div class="task-list">
+            <h1>Todo List</h1>        
+            <ol>    
+                <% if(list.length == 0){                     
+                    %>
+                    <% }
+                else{
+                    for(let index=0;index<list.length;++index){ %>
+                    <li>
+                        <%=list[index] %>
+                    </li>
+                    <% }
+                } %>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
